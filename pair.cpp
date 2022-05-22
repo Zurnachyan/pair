@@ -1,3 +1,6 @@
+#ifndef __pair__
+#define __pair__
+
 #include <iostream>
 
 namespace LAZ {
@@ -155,3 +158,4 @@ int main() {
     x = std::move(y);
     std::cout << a;
 }
+#endif
