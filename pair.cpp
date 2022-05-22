@@ -151,11 +151,4 @@ namespace LAZ {
     }
 };
 
-int main() {
-    LAZ::Pair<int, std::string> x;
-    LAZ::Pair<int, std::string> y(1, "asd");
-    auto a = LAZ::makePair(123, 'a');
-    x = std::move(y);
-    std::cout << a;
-}
 #endif
